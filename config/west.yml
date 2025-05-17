@@ -1,12 +1,12 @@
 manifest:
   remotes:
-    - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
+    - name: kso123420
+      url-base: https://github.com/kso123420
     - name: kso123420
       url-base: https://github.com/kso123420
   projects:
     - name: zmk
-      remote: zmkfirmware
+      remote: kso123420
       revision: main
       import: app/west.yml
     - name: zmk-pmw3610-driver
