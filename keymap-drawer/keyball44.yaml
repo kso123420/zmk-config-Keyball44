@@ -42,7 +42,7 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:keyboard-space$$', h: SYM}
   - {t: '''', h: FUN, s: '"'}
-  - {t: LANGUAGE 1, h: '$$mdi:apple-keyboard-command$$'}
+  - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:keyboard-space$$', h: NUM}
   - $$mdi:apple-keyboard-option$$
   NUM:
