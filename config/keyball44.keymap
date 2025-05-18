@@ -13,14 +13,14 @@
 #include <dt-bindings/zmk/mouse.h>
 
 &lt {
-    tapping-term-ms = <240>;
-    flavor = "balanced";
+    tapping-term-ms = <200>;
+    flavor = "hold-preferred";
     quick-tap-ms = <150>;
 };
 
 &mt {
     tapping-term-ms = <200>;
-    flavor = "tap-preferred";
+    flavor = "hold-preferred";
     quick-tap-ms = <150>;
 };
 
