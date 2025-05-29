@@ -146,7 +146,7 @@ layers:
   - $$mdi:arrow-up-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-right-click-outline$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&mkp MB4'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F5
@@ -170,7 +170,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-scroll-wheel$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&mkp MB5'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
