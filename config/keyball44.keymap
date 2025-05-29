@@ -84,9 +84,9 @@
         function_layer {
             label = "FUN";
             bindings = <
-&none  &kp F1   &kp F2   &kp F3   &kp F4   &none                         &trans          &kp UP_ARROW     &trans  &mkp RCLK  &trans  &trans
-&none  &kp F5   &kp F6   &kp F7   &kp F8   &none                         &kp LEFT_ARROW  &kp RIGHT_ARROW  &trans  &mkp LCLK  &mo 4   &trans
-&none  &kp F9   &kp F10  &kp F11  &kp F12  &none                         &trans          &kp DOWN_ARROW   &trans  &mkp MCLK  &trans  &trans
+&none  &kp F1   &kp F2   &kp F3   &kp F4   &none                         &trans          &kp UP_ARROW     &trans  &mkp RCLK  &mkp MB4  &trans
+&none  &kp F5   &kp F6   &kp F7   &kp F8   &none                         &kp LEFT_ARROW  &kp RIGHT_ARROW  &trans  &mkp LCLK  &mo 4     &trans
+&none  &kp F9   &kp F10  &kp F11  &kp F12  &none                         &trans          &kp DOWN_ARROW   &trans  &mkp MCLK  &mkp MB5  &trans
                 &trans   &trans   &trans   &trans  &trans        &trans  &trans                                              &trans
             >;
         };
