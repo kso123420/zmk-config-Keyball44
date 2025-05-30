@@ -273,9 +273,3 @@ layers:
 combos:
 - p: [43, 11]
   k: {t: '$$mdi:backspace$$', type: backspace}
-- p: [43, 23]
-  k: RETURN
-- p: [40, 2]
-  k: $$mdi:keyboard-esc$$
-- p: [40, 14]
-  k: $$mdi:keyboard-tab$$
