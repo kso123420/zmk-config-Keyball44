@@ -126,5 +126,15 @@
             key-positions = <42 22>;
             bindings = <&kp RETURN>;
         };
+        combo_esc {
+            timeout-ms = <50>;
+            key-positions = <39 1>;
+            bindings = <&kp RETURN>;
+        };
+        combo_tab {
+            timeout-ms = <50>;
+            key-positions = <39 13>;
+            bindings = <&kp RETURN>;
+        };
     };
 };
