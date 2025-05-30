@@ -275,3 +275,7 @@ combos:
   k: {t: '$$mdi:backspace$$', type: backspace}
 - p: [42, 22]
   k: RETURN
+- p: [39, 1]
+  k: RETURN
+- p: [39, 13]
+  k: RETURN
