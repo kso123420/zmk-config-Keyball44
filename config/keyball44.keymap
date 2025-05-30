@@ -122,4 +122,29 @@
             bindings = <&kp BACKSPACE>;
         };
     };
+          {
+        compatible = "zmk,combos";
+        combo_return {
+            timeout-ms = <50>;
+            key-positions = <42 22>;
+            bindings = <&kp RETURN>;
+        };
+    };
+          {
+        compatible = "zmk,combos";
+        combo_esc {
+            timeout-ms = <50>;
+            key-positions = <39 1>;
+            bindings = <&kp ESC>;
+        };
+    };
+          {
+        compatible = "zmk,combos";
+        combo_tab {
+            timeout-ms = <50>;
+            key-positions = <39 13>;
+            bindings = <&kp TAB>;
+        };
+    };
+
 };
