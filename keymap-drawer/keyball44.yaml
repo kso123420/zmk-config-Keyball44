@@ -274,4 +274,4 @@ combos:
 - p: [42, 10]
   k: {t: '$$mdi:backspace$$', type: backspace}
 - p: [42, 22]
-  k: RETURNk
+  k: RETURN
