@@ -118,7 +118,7 @@
         compatible = "zmk,combos";
         combo_backspace {
             timeout-ms = <50>;
-            key-positions = <43 11>;
+            key-positions = <42 10>;
             bindings = <&kp BACKSPACE>;
         };
     };
