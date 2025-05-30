@@ -121,6 +121,7 @@
             key-positions = <43 11>;
             bindings = <&kp BACKSPACE>;
         };
+    };
            {
         compatible = "zmk,combos";
         combo_return {
@@ -128,6 +129,7 @@
             key-positions = <43 23>;
             bindings = <&kp RETURN>;
         };
+    };
            {
         compatible = "zmk,combos";
         combo_esc {
@@ -135,6 +137,7 @@
             key-positions = <40 2>;
             bindings = <&kp ESC>;
         };
+    };
            {
         compatible = "zmk,combos";
         combo_tab {
