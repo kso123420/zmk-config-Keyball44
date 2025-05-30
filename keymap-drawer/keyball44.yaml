@@ -271,5 +271,5 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [43, 11]
+- p: [42, 10]
   k: {t: '$$mdi:backspace$$', type: backspace}
