@@ -129,12 +129,12 @@
         combo_esc {
             timeout-ms = <50>;
             key-positions = <39 1>;
-            bindings = <&kp RETURN>;
+            bindings = <&kp ESC>;
         };
         combo_tab {
             timeout-ms = <50>;
             key-positions = <39 13>;
-            bindings = <&kp RETURN>;
+            bindings = <&kp TAB>;
         };
     };
 };
