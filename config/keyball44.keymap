@@ -56,8 +56,8 @@
             bindings = <
 &kp ESC     &kp Q         &kp W       &kp E        &kp R        &kp T                                               &kp Y        &kp U       &kp I      &kp O       &kp P            &kp BACKSPACE
 &kp TAB     &mt LSHIFT A  &mt LALT S  &mt LCTRL D  &mt LCMD F   &kp G                                               &kp H        &mt RCMD J  &lt 3 K    &mt RALT L  &mt RSHIFT SEMI  &kp RETURN
-&kp LSHIFT  &kp Z         &kp X       &kp C        &kp V        &kp B                                               &kp N        &kp M       &kp COMMA  &kp DOT     &kp SLASH        &mt RSHIFT RCMD
-                          &kp LCTRL   &kp LALT     &lt 3 SPACE  &lt 1 SPACE  &lt 2 SINGLE_QUOTE        &lt 1 SPACE  &lt 2 SPACE                                     &kp RIGHT_ALT
+&kp LSHIFT  &kp Z         &kp X       &kp C        &kp V        &kp B                                               &kp N        &kp M       &kp COMMA  &kp DOT     &kp SLASH        &kp RSHIFT
+                          &kp LCTRL   &kp LALT     &lt 3 SPACE  &lt 1 SPACE  &lt 2 GRAVE        &lt 1 SINGLE_QUOTE  &lt 2 SPACE                                     &kp RIGHT_ALT
             >;
         };
 
@@ -74,10 +74,10 @@
         symbol_layer {
             label = "SYM";
             bindings = <
-&kp GRAVE         &kp EXCLAMATION       &kp AT_SIGN            &kp HASH          &kp DOLLAR         &kp EQUAL                               &trans  &trans  &trans  &trans  &kp BACKSPACE  &trans
-&kp SINGLE_QUOTE  &kp PERCENT           &kp CARET              &kp AMPERSAND     &kp ASTERISK       &kp MINUS                               &trans  &trans  &trans  &trans  &kp RETURN     &trans
-&trans            &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH                           &trans  &trans  &trans  &trans  &trans         &trans
-                                        &trans                 &kp GRAVE         &trans             &trans         &trans           &trans  &trans                          &trans
+&trans  &kp EXCLAMATION       &kp AT_SIGN            &kp HASH          &kp DOLLAR         &kp EQUAL                               &trans      &trans        &trans        &trans        &kp BACKSPACE  &trans
+&trans  &kp PERCENT           &kp CARET              &kp AMPERSAND     &kp ASTERISK       &kp MINUS                               &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &kp RETURN     &trans
+&trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH                           &trans      &trans        &trans        &trans        &trans         &trans
+                              &trans                 &kp GRAVE         &trans             &trans         &trans           &trans  &trans                                  &trans
             >;
         };
 
@@ -109,42 +109,6 @@
 &trans  &trans  &trans  &trans  &trans  &trans              &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans              &trans  &trans                          &trans
             >;
-        };
-    };
-};
-
-/ {
-    combos {
-        compatible = "zmk,combos";
-        combo_backspace {
-            timeout-ms = <50>;
-            key-positions = <42 10>;
-            bindings = <&kp BACKSPACE>;
-        };
-        combo_return {
-            timeout-ms = <50>;
-            key-positions = <42 22>;
-            bindings = <&kp RETURN>;
-        };
-        combo_esc {
-            timeout-ms = <50>;
-            key-positions = <39 1>;
-            bindings = <&kp ESC>;
-        };
-        combo_tab {
-            timeout-ms = <50>;
-            key-positions = <39 13>;
-            bindings = <&kp TAB>;
-        };
-        combo_single_quote {
-            timeout-ms = <50>;
-            key-positions = <19 20>;
-            bindings = <&kp SINGLE_QUOTE>;
-        };
-        combo_grave {
-            timeout-ms = <50>;
-            key-positions = <15 16>;
-            bindings = <&kp GRAVE>;
         };
     };
 };
